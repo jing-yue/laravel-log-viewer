@@ -1,5 +1,5 @@
 {
-    "name": "jingyue/laravel-log-viewer",
+    "name": "jing-yue/laravel-log-viewer",
     "description": "A Laravel log reader",
     "license": "MIT",
     "keywords": ["log", "log-reader", "log-viewer", "logging", "laravel", "lumen"],
