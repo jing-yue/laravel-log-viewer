@@ -55,6 +55,7 @@ class LogViewerController extends BaseController
             $this->log_viewer->setFolder(Crypt::decrypt($this->request->input('f')));
             $folderFiles = $this->log_viewer->getFolderFiles(true);
         }
+
         if ($this->request->input('l')) {
             $this->log_viewer->setFile(Crypt::decrypt($this->request->input('l')));
         }
